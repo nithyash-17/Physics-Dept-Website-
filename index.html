@@ -1,0 +1,2059 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Likhitha Physics Website</title>
+
+
+  
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="background-color: #c0d7dd;">
+  <!--new modal -example-->
+  <!--<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">BOOKS<br>
+              
+          <button type="button" class="btn btn-link">Link</button>
+            </div>
+            <div class="col-md-4 ml-auto">PYQs</div>
+            <div class="col-md-3 ml-auto">MATERIALS</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+  <style>
+    /* Define a custom animation for fading in */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Define a custom animation for zooming in */
+    @keyframes zoomIn {
+      from {
+        transform: scale(0.5);
+      }
+
+      to {
+        transform: scale(1);
+      }
+    }
+
+    /* Apply the fade-in animation to the modal */
+    .modal.fade .modal-dialog {
+      animation: fadeIn 0.3s ease, zoomIn 0.3s ease;
+    }
+  </style>
+
+  <!-- Modal with animation -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Basic Engineering Mechanics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">BOOKS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1zPKqck3n4pvy_QCTn52aJgazuI874k7Z/view?usp=drive_link" download>
+                <img src="ph1.jpeg" width="104" height="142">
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">PYQs</div>
+            <div class="col-md-3 ml-auto">MATERIALS</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--navbar starts-->
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#">PHYSICS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Sem 1 </a>
+            <a class="dropdown-item" href="#">Sem 2</a>
+            <a class="dropdown-item" href="#">Sem 3 </a>
+            <a class="dropdown-item" href="#">Sem 4</a>
+            <a class="dropdown-item" href="#">Sem 5 </a>
+            <a class="dropdown-item" href="#">Sem 6</a>
+            <a class="dropdown-item" href="#">Sem 7 </a>
+            <a class="dropdown-item" href="#">Sem 8</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!--navbar end-->
+  <!-- Button trigger modal -->
+
+
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body" style="background-color:rgb(63, 101, 125);">
+      <!--rgb(21, 68, 95)-->
+      <div class="modal-body" style="text-align: center;background-color:rgb(63, 101, 125);">
+        <div class="dropdown">
+          <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter">
+            Basic Engineerig Mechanics
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Books</a>
+            <a class="dropdown-item" href="#">Study Materails</a>
+            <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a class="btn btn-dark mb-3 " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Physics of Waves
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Books</a>
+            <a class="dropdown-item" href="#">Study Materails</a>
+            <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a class="btn btn-dark mb-3 " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Advanced Calculus
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Books</a>
+            <a class="dropdown-item" href="#">Study Materails</a>
+            <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+
+          <a class="btn btn-dark mb-3" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Electrical Technology
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Books</a>
+            <a class="dropdown-item" href="#">Study Materails</a>
+            <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a class="btn btn-dark mb-3 " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Environmental Science
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Books</a>
+            <a class="dropdown-item" href="#">Study Materails</a>
+            <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade mr-3" id="exampleModalCenter" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true" btn btn-outline-success mb-3>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">SEM 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+
+
+
+
+        <div class="modal-body" style="text-align: center;background-color: black;">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-outline-success mb-3 " href="#" role="button"
+              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Basic Engineerig Mechanics
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Study Materails</a>
+              <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-outline-success mb-3 " href="#" role="button"
+              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Physics of Waves
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Study Materails</a>
+              <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-outline-success mb-3 " href="#" role="button"
+              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Advanced Calculus
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Study Materails</a>
+              <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-outline-success mb-3 " href="#" role="button"
+              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Electrical Technology
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Study Materails</a>
+              <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-outline-success mb-3 " href="#" role="button"
+              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Environmental Science
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Study Materails</a>
+              <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">SEM 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+
+
+
+
+        <div class="modal-body" style="text-align: center;background-color:#c0d7dd;">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-outline-success mb-3 " href="#" role="button"
+              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Basic Engineerig Mechanics
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Study Materails</a>
+              <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-outline-success mb-3 " href="#" role="button"
+              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Physics of Waves
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Study Materails</a>
+              <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-outline-success mb-3 " href="#" role="button"
+              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Advanced Calculus
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Study Materails</a>
+              <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-outline-success mb-3 " href="#" role="button"
+              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Electrical Technology
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Study Materails</a>
+              <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-outline-success mb-3 " href="#" role="button"
+              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Environmental Science
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Study Materails</a>
+              <a class="dropdown-item" href="#">Previous Year Question Papers</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!--first row of cards-->
+  <!--modal ends-->
+  <div class="container mt-5 ml-20 ">
+    <div class="row mr-3"> <!-- Adjusted margin applied to the row -->
+      <div class="container mt-5 ml-5">
+        <div class="row mr-3">
+          <div class="mb-3">
+
+
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample1"
+              aria-expanded="false" aria-controls="collapseExample">
+              <div class="card " style="width: 14rem; height: 20rem; ">
+                <img class="card" src="venus.jpg" alt="Card image cap"
+                  style="object-fit: cover; width: 100%; height: 100%;">
+              </div>
+
+            </button>
+
+          </div>
+          <div class="mb-3">
+
+
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample3"
+              aria-expanded="false" aria-controls="collapseExample">
+              <div class="card " style="width: 14rem; height: 20rem; ">
+                <img class="card" src="earth-recovered.jpg" alt="Card image cap"
+                  style="object-fit: cover; width: 100%; height: 100%;">
+
+              </div>
+
+            </button>
+
+          </div>
+          <div class="mb-3">
+
+
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample5"
+              aria-expanded="false" aria-controls="collapseExample">
+              <div class="card " style="width: 14rem; height: 20rem; ">
+                <img class="card" src="mercury-recovered.jpg" alt="Card image cap"
+                  style="object-fit: cover; width: 100%; height: 100%;">
+
+              </div>
+
+            </button>
+
+          </div>
+          <div class="mb-3">
+
+
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample7"
+              aria-expanded="false" aria-controls="collapseExample">
+              <div class="card " style="width: 14rem; height: 20rem; ">
+                <img class="card" src="uranus-recovered.jpg" alt="Card image cap"
+                  style="object-fit: cover; width: 100%; height: 100%;">
+
+              </div>
+
+            </button>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal with animation 1-->
+  <div class="modal fade" id="exampleModalCenter11" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Basic Engineering Mechanics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1VELPqMAreCpqkOA7Qw8UreJ1ZXX8ubf-/view" download>
+                BEM Syllabus
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter12" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Physics of Waves</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SLIDES<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1coadvapzb4HLznz3ZgnTsL7bSQNjG-B_" download>
+                Lecture Notes
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">TUTORIALS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1kbW-X_Q0Usak-VQj_gR7uCdpcXeuazwj" download>
+                POW Tutorials
+              </a>
+            </div>
+            <div class="col-md-3 ml-auto">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1m6hGIB4m_43LhXyat1nH8_y-vgNdbDGs/view" download>
+                POW Syllabus
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter13" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Advanced Calculus</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">TUTORIALS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1-E5PlkqKfGooHLRNcJVSY_j71-1y93Ww" download>
+                Tutorials
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">NOTES<br>
+              <a href="https://drive.google.com/drive/u/0/folders/1-aJrdcN9hwm836FB-hd0UDfg4rmrKu1m" download>
+                Notes by Prof.Ratna Datta
+              </a>
+            </div>
+            <div class="col-md-3 ml-auto">SYLLABUS<br>
+              <a href="https://drive.google.com/file/d/1PE7h2M5x3ZGfTTdPeDzDk3HOY_MdOglb/view" download>
+                Advanced Calculus Syllabus
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter14" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Electrical Technology</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SLIDES<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1P7y1dK3eVL4LE6h1csn5RatfOKEMOnzo" download>
+                Prof.Dipankar Debnath Slides
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">TUTORIALS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1N5YaLMK5DhsFsD9x8YYk6hMCanXd9xET" download>
+                ET Slides
+              </a>
+            </div>
+            <div class="col-md-3 ml-auto">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1EB0fElBx72iQ3-QQvOU9Ctl8rFVaRAsc/view" download>
+                ET Syllabus
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter15" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Environmental Science</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1yoRc5h1xFb6pcjh_TVpvq0ABy8INlCgd/view" download>
+                EV Syllabus
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter16" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Engineering Lab</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">BOOKS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1LlRh_nxK-L44DkM_8FDGLVwO1V0Nngl_/view" download>
+                Engineering Lab Syllabus
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter17" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Physics Lab</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1G5gpf235aDlZNwlOsqpu7ba7sSapEAOx/view" download>
+                Physics Lab Syllabus
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- dropdown 1 -->
+
+  <div class="collapse" id="collapseExample1">
+    <div class="card card-body" style="background-color:rgb(63, 101, 125);">
+      <!--rgb(21, 68, 95)-->
+      <div class="modal-body" style="text-align: center;background-color:rgb(63, 101, 125);">
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter11">
+          Basic Engineerig Mechanics
+
+        </a>
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter12">
+          Physics of Waves
+        </a>
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter13">
+          Advanced Calculus
+        </a>
+        <br>
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter14">
+          Electrical Technology
+        </a>
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter15">
+          Environmental Science
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter16">
+          Engineering Lab
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter17">
+          Physics Lab
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal with animation 3-->
+  <div class="modal fade" id="exampleModalCenter31" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Basic Electronics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-3 ml-auto">SYLLABUS<br>
+              <a href="https://drive.google.com/file/d/1YkpsEg0dqUqb1zvGjBxq0pJVmE--MAMK/view" download>
+                BE syllabus
+              </a>
+            </div>
+
+            <div class="col-md-4">BOOKS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1opkkcAquvK071xyX5bz0LnI-x2qnsjTC/view" download>
+                Neamen Electronic Circuit Analysis and Design
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/1OmkD0eY0qTeQdFL3Q50FDR_RRCmPwVH1/view" download>
+                Electronic Circuits Analysis and Design
+              </a>
+            </div>
+
+            <div class="col-md-4 ml-auto">PYQs<br>
+              <a href="https://drive.google.com/file/d/1plSNpPyP0FVInmfyzBRgdt9sOxJkHiQB/view" download>
+                BE Midsems 22
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/1TToC1Rm67osEZUWhIUpSD65z0KUrpdn2/view" download>
+                BE midsems 23
+              </a>
+            </div>
+
+            <div class="col-md-3 ml-auto">NOTES AND SLIDES<br>
+
+              <a href=" https://drive.google.com/drive/folders/1mCmkIn0EgeanoeWnCO9TrE_UZXNh1eLE" download>
+                Lecture Slides
+              </a>
+
+            </div>
+
+            <div class="col-md-3 ml-auto">TUTORIALS<br>
+              <a href="https://drive.google.com/drive/folders/1NciXgk_8exTA5ytp5GfCll5TF0FWRgJE" download>
+                Tutorials
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter32" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Basic Electronics Lab</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">LAB MANUALS </div><br>
+            <!-- Book link example -->
+            <a href="https://drive.google.com/drive/folders/1SA9Zt7wgE-pex59n0Id-_SKZp_7O_hDl" download>
+              Lab Manuals
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="exampleModalCenter33" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Classical Dynamics and Special Relativity</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">BOOKS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/18mRlCAjfxrQdkVv4p1Io2stblqwS-rUa/view" download>
+                Goldstein Classical Mechanics
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/1FBt38UL0CwebD4Nm4psuTPbOA2P7h4PT/view" download>
+                Landlau Lifshitz Mechanics
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/1RRxWON0zRvF7r-ocagBdIyB11lXMXJDs/view" download>
+                Taylor Classical Mech
+              </a>
+            </div>
+            <br>
+            <div class="col-md-4 ml-auto">NOTES<br>
+              <a href="https://drive.google.com/drive/folders/1w05XXg920cKvJ7vtcIC2aDIvxnfXFUYS" download>
+                Lecture slides
+              </a>
+            </div>
+            <br>
+            <div class="col-md-3 ml-auto">PYQS<br>
+              <a href="https://drive.google.com/file/d/1PctRQLFtTpnpMWg30f-noWdkeEWSqYdj/view" download>
+                CDSR Midsem 23
+              </a>
+            </div>
+            <br>
+            <div class="col-md-4 ml-auto">TUTORIALS<br>
+              <a href="https://drive.google.com/drive/folders/1rtTbBu4jhSZrPMRC6VZRA6ZQd89zF7en" download>
+                CDSR tutorials
+              </a>
+            </div>
+
+            <br>
+            <div class="col-md-3 ml-auto">SYLLABUS<br>
+              <a href="https://drive.google.com/file/d/1-e6omEpiY_hCbdVTlUSMPYxbb5S3k58t/view" download>
+                CDSR syllabus
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter34" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Electromagnetism</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">BOOKS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1cQlM7e_OK8A2DS9BSYZqMnm0PUMhDTYY/view" download>
+                Griffiths Electrodynamics
+              </a>
+            </div>
+            <br>
+            <div class="col-md-4 ml-auto">PYQs<br>
+              <a href="https://drive.google.com/file/d/1AoqtIxA67xG2zKHEZ1BZhn40M_bV1uCs/view" download>
+                Emag Midsem 23
+              </a>
+            </div>
+            <br>
+            <div class="col-md-3 ml-auto">TUTORIALS<br>
+
+              <a href="https://drive.google.com/drive/folders/11fSYETaAA4OrUDv3mKtwse6_x5ylvOKy" download>
+                Tutorials
+              </a>
+            </div>
+            <br>
+            <div class="col-md-3 ml-auto">SYLLABUS<br>
+
+              <a href="https://drive.google.com/file/d/1g1QHyuOwjiFu706-fE74iM313lFLXaKt/view" download>
+                Emag Syllabus
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter35" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Electromagnetism Lab</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">MANUALS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/folders/1sN0IABdZrSx-3VmID-wDytn-JxjGvdq8" download>
+                Lab Manuals
+              </a>
+
+
+            </div>
+            <br>
+            <div class="col-md-4">SYLLABUS <br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1CHV2qFBYQAi2A9iSRdOHQyCA0dWO4zcp/view" download>
+                Emag Lab Syllabus
+              </a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter36" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">General Properties of Matter Lab</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">LAB MANUALS <br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/folders/1LnguFY-51_uwnhv93jR_xnpbgn5YJjLG" download>
+                GPM Lab Manuals
+              </a>
+
+
+            </div>
+            <br>
+            <div class="col-md-4">GPM LAB SYLLABUS <br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1gSWEKeMfaO2wPgJFIabGh0hNuG_DYeb3/view" download>
+                GPM Lab Syllabus
+              </a>
+
+
+            </div>
+
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="exampleModalCenter37" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Probability abd Statistics </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">BOOKS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1g91rBMjP4-KGxEElHyhkV8XYPg7GIXl-/view" download>
+                Rice Mathematical Statistics and Data Analytics
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/11mYJDcxk0qcbE09UO0ugJZ0E1z0519bF/view" download>
+                Rohtagi Introduction to Probability and Statistics
+              </a>
+
+
+            </div>
+            <br>
+            <div class="col-md-4">NOTES<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/folders/1LlOxKpdtkZe-LAf8W05BP5cL336iySXN" download>
+                Lecture Notes
+              </a>
+            </div>
+            <br>
+            <div class="col-md-4">PYQS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1TXy47dCSojbyGzxto0ogMWzvHuvlaXNs/view" download>
+                MA20205-Model-solution Mid-sem
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/1phyD158cEeu8SZDeUL4oFSQJX_Zgg0uP/view" download>
+                PS 2022 paper
+              </a>
+            </div>
+            <br>
+            <div class="col-md-4">TUTORIALS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/folders/1zz3yPCMiU3y1UIV_EIHtdNTxMTU1ZEve" download>
+                Tutorials
+              </a>
+            </div>
+            <br>
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1weiPRZ2LRYjh9B5OoHFm0nu-R88grku6/view" download>
+                PNS Syllabus
+              </a>
+            </div>
+            <br>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- dropdown 3 -->
+
+  <div class="collapse" id="collapseExample3">
+    <div class="card card-body" style="background-color:rgb(63, 101, 125);">
+      <!--rgb(21, 68, 95)-->
+      <div class="modal-body" style="text-align: center;background-color:rgb(63, 101, 125);">
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter31">
+          Basic Electronics
+        </a>
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter32">
+          Basic Electronics Lab
+        </a>
+        <br>
+
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter33">
+          Classical Dynamics and Special Relativity
+        </a>
+
+        <br>
+
+
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter34">
+          Electromagnetism
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter35">
+          Electromagnetism Lab
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter36">
+          General Properties of Matter Lab
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter37">
+          Probability and Statistics
+        </a>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal with animation 5-->
+  <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Basic Engineering Mechanics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">BOOKS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1zPKqck3n4pvy_QCTn52aJgazuI874k7Z/view?usp=drive_link" download>
+                <img src="ph1.jpeg" width="104" height="142">
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">PYQs</div>
+            <div class="col-md-3 ml-auto">MATERIALS</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- dropdown 5 -->
+  </p>
+  <div class="collapse" id="collapseExample5">
+    <div class="card card-body" style="background-color:rgb(63, 101, 125);">
+      <!--rgb(21, 68, 95)-->
+      <div class="modal-body" style="text-align: center;background-color:rgb(63, 101, 125);">
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter">
+          Classical Mechanics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Computational Physics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Electrodynamics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Mathematics for Physics II
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Modern Physics Lab
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Qunatum Mechanics
+        </a>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal with animation 7-->
+  <div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Basic Engineering Mechanics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">BOOKS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1zPKqck3n4pvy_QCTn52aJgazuI874k7Z/view?usp=drive_link" download>
+                <img src="ph1.jpeg" width="104" height="142">
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">PYQs</div>
+            <div class="col-md-3 ml-auto">MATERIALS</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- dropdown 7 -->
+  </p>
+  <div class="collapse" id="collapseExample7">
+    <div class="card card-body" style="background-color:rgb(63, 101, 125);">
+      <!--rgb(21, 68, 95)-->
+      <div class="modal-body" style="text-align: center;background-color:rgb(63, 101, 125);">
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter">
+          Basic Engineerig Mechanics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Physics of Waves
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Advanced Calculus
+        </a>
+
+
+        <br>
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Electrical Technology
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Environmental Science
+        </a>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--second row of cards -->
+
+  <div class="container mt-5 ml-20 ">
+    <div class="row mr-3"> <!-- Adjusted margin applied to the row -->
+      <div class="container mt-5 ml-5">
+        <div class="row mr-3 ">
+          <div class="mb-3">
+
+
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample2"
+              aria-expanded="false" aria-controls="collapseExample">
+              <div class="card " style="width: 14rem; height: 20rem; ">
+                <img class="card" src="jupiter-recovered.jpg" alt="Card image cap"
+                  style="object-fit: cover; width: 100%; height: 100%;">
+
+              </div>
+
+            </button>
+
+          </div>
+          <div class="mb-3">
+
+
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample4"
+              aria-expanded="false" aria-controls="collapseExample">
+              <div class="card " style="width: 14rem; height: 20rem; ">
+                <img class="card" src="mars1-recovered.jpg" alt="Card image cap"
+                  style="object-fit: cover; width: 100%; height: 100%;">
+
+              </div>
+
+            </button>
+
+          </div>
+          <div class="mb-3">
+
+
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample6"
+              aria-expanded="false" aria-controls="collapseExample">
+              <div class="card " style="width: 14rem; height: 20rem; ">
+                <img class="card" src="satrun-recovered.jpg" alt="Card image cap"
+                  style="object-fit: cover; width: 100%; height: 100%;">
+
+              </div>
+
+            </button>
+
+          </div>
+          <div class="mb-3">
+
+
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample8"
+              aria-expanded="false" aria-controls="collapseExample">
+              <div class="card " style="width: 14rem; height: 20rem; ">
+                <img class="card" src="neptune-recovered.jpg" alt="Card image cap"
+                  style="object-fit: cover; width: 100%; height: 100%;">
+
+              </div>
+
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal with animation 2-->
+  <div class="modal fade" id="exampleModalCenter21" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Chemistry</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">ORGANIC CHEMISTRY<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1v-C2VghPJjrKdmXzJSMDYP62GedYfQvn" download>
+                Prof.Suman Kalyan Samanta Slides
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">INORGANIC CHEMISTRY<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/11vziz5Q7_doR1bk2v2axWW9v7aeGaujM" download>
+                Prof.Sukanta Mondal Slides
+              </a></div>
+              <div class="col-md-4 ml-auto">PHYSICAL CHEMISTRY<br>
+                <!-- Book link example -->
+                 <p>TUTORIALS</p>
+                <a href="https://drive.google.com/drive/u/0/folders/1j9n2BuzJZRqsq9TIB-aZ3A5I4JPgRYRE" download>
+                  Phy Chem Tutorials
+                </a>
+                <p>NOTES</p>
+                <a href="https://drive.google.com/drive/u/0/folders/14tY7lNnRhldNjtPT57bTtKqhI-AtUQQ5" download>
+                  Prof.Nilmoni Sarkar Notes
+                </a>
+                <br>
+                <a href="https://drive.google.com/drive/u/0/folders/1cDO5EphReUA3qiZdThcrMNNHRqpKjXEx" download>
+                  Prof.Sabyasachi Mishra Notes
+                </a>
+              </div>
+            <div class="col-md-3 ml-auto">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1b8wC7x9AV6sIrNK4yCdgi3q6Hvc1XEXf/view" download>
+                Chem Syllabus
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter22" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Engineering Drawing and Computer Graphics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SLIDES<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1njOWJ5U5YwZqmDp5Lo2ux45OHzyCFmJw" download>
+                Lecture Notes
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">TUTORIALS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1iIqBkCD066PvABYdi-knbOmUfk7wCF-h" download>
+                Assignments 
+              </a></div>
+            <div class="col-md-3 ml-auto">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1Tv150naHDTI1h0s4CCz7SwN4mIvZQTSf/view" download>
+                ED Syllabus
+              </a></div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter23" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Programming and Data Structures Lab</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1qtOJF30VXt5bPenPgyUu8JI_SDPr7khy" download>
+                PDS Lab Syllabus
+              </a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter24" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Programming and Data Structures </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SLIDES<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1BdAm51jVU5I8iAAYLj3hIHJj6NNBAdUm" download>
+                Lecture Notes
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">PYQs<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/10QirW5DapEoGiT54EVOZKXyFIPmBlD4W/view" download>
+                ct1
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/1ERM_Uak5oY37aeV6xFfl7OmcKO5GjPyK/view" download>
+                ct2
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/1agJL_c5VR3xJF986kFoE7F3RLyOOW_Gl/view" download>
+                lt2A
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/11bGsx8nrrtrHydE4JeKK7YPWzHEFWG9X/view" download>
+                midsem_answer_keys
+              </a>
+              <br>
+              <a href="https://drive.google.com/drive/u/0/folders/1EXFr6VXsH2ilI_UFvqncYgBwLF_L3ok1" download>
+                PDS_2022
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/1I3PZ_JwqTCrUuavRkDtd05jW9fQqmkpT/view" download>
+                PDS_2022A_ClassTest2_solutions
+              </a>
+              <br>
+              <a href="https://drive.google.com/file/d/1bByorsMB-IRaTA02Epobxtgo8LEVelq7/view" download>
+                PDS_2022_endsem_soln_keys
+              </a>
+              <br>
+            </div>
+            <div class="col-md-3 ml-auto">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1lve6AamQuL98ZFqprV6pWUiMHHpTjZHA/view" download>
+                PDS Syllabus
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter25" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Science of Living Systems</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SLIDES<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/1HA1-QR5gPcZn4qamTHYQq9aSK31pxtlu" download>
+                Lecture Notes
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">PYQs<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1_ffkpjMUf3lq69R9Y32bniqJBw2Zx3Gt/view" download>
+                BS10003 Midsem paper with answer
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter26" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Linear Algebra</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SLIDES<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/190Lyt6e0x0wmilaE_ZpQqtADDJx1TYjS" download>
+                Prof. Debapriya Biswas Notes
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">TUTORIALS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/drive/u/0/folders/11F3iRUBor3gWb9uoFXrVQrQF6rmPOIr3" download>
+                Tutorials
+              </a>
+            </div>
+            <div class="col-md-3 ml-auto">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/17kaotb5CH3acPnwaiV1NtkxWG4Eqn4EC/view" download>
+                LANCA Syllabus
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- dropdown 2 -->
+  </p>
+  <div class="collapse" id="collapseExample2">
+    <div class="card card-body" style="background-color:rgb(63, 101, 125);">
+      <!--rgb(21, 68, 95)-->
+      <div class="modal-body" style="text-align: center;background-color:rgb(63, 101, 125);">
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter21">
+          Chemistry
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter22">
+          Engineering Drawing and Computer Graphics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter24">
+          Programming and Data Structures
+        </a>
+
+        <br>
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter23">
+          Programming and Data Structures Lab
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter25">
+          Science of Living Systems
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter26">
+          Linear Algebra
+        </a>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal with animation 4-->
+  <div class="modal fade" id="exampleModalCenter41" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document"> <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Mathematics for Physics I</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1UFmmShaihHoihDuKhbUt49Doue4qIxzy/view" download>
+                MOP Syllabus
+              </a>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter42" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Optics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1kEqRfpUVnBq3GrhIBUFHRos3ah41QLGc/view" download>
+                Optics Syllabus
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter43" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Optics Lab</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1Az9bc_vxLu4YS60ikBF3B5N4wHWlW9e4/view" download>
+                Optics Lab Syllabus
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter44" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Quantum Physics </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/18XY_U_5KkjWg76gCJEXl-7YhC95Tsm62/view" download>
+                Quantum Physics Syllabus
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter45" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Thermal Physics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1Phqdjcltcrzv0uVXUZ_j4NHIWOKAniMu/view" download>
+                Thermal Physics Syllabus
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter46" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Thermal Physics Lab</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">SYLLABUS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1rWMYkme14lEQ594M78994C9gWuU2PPMi/view" download>
+                Thermal Physics Lab Syllabus
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- dropdown 4 -->
+  </p>
+  <div class="collapse" id="collapseExample4">
+    <div class="card card-body" style="background-color:rgb(63, 101, 125);">
+      <!--rgb(21, 68, 95)-->
+      <div class="modal-body" style="text-align: center;background-color:rgb(63, 101, 125);">
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter41">
+          Mathematics for Physics I
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter42">
+          Optics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter43">
+          Optics Lab
+        </a>
+
+        <br>
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter44">
+          Quantum Physics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter45">
+          Thermal Physics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter46">
+          Thermal Physics Lab
+        </a>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal with animation 6-->
+  <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Basic Engineering Mechanics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">BOOKS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1zPKqck3n4pvy_QCTn52aJgazuI874k7Z/view?usp=drive_link" download>
+                <img src="ph1.jpeg" width="104" height="142">
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">PYQs</div>
+            <div class="col-md-3 ml-auto">MATERIALS</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- dropdown 6 -->
+  </p>
+  <div class="collapse" id="collapseExample6">
+    <div class="card card-body" style="background-color:rgb(63, 101, 125);">
+      <!--rgb(21, 68, 95)-->
+      <div class="modal-body" style="text-align: center;background-color:rgb(63, 101, 125);">
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter">
+          Atomic and Molecular Physics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Condensed Matter Physics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Condensed Matter Physics Lab
+        </a>
+
+        <br>
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Nuclear Physics
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Nuclear Physics Lab
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Spectroscopy Lab
+        </a>
+
+        <br>
+        <a class="btn btn-dark mb-3 " href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter1">
+          Statistical Physics
+        </a>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal with animation 8-->
+  <div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <!-- Adjust modal-lg for larger modals -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Basic Engineering Mechanics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">BOOKS<br>
+              <!-- Book link example -->
+              <a href="https://drive.google.com/file/d/1zPKqck3n4pvy_QCTn52aJgazuI874k7Z/view?usp=drive_link" download>
+                <img src="ph1.jpeg" width="104" height="142">
+              </a>
+            </div>
+            <div class="col-md-4 ml-auto">PYQs</div>
+            <div class="col-md-3 ml-auto">MATERIALS</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- dropdown 8 -->
+  </p>
+  <div class="collapse" id="collapseExample8">
+    <div class="card card-body" style="background-color:rgb(63, 101, 125);">
+      <!--rgb(21, 68, 95)-->
+      <div class="modal-body" style="text-align: center;background-color:rgb(63, 101, 125);">
+
+        <a class="btn btn-dark mb-3" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter">
+          Particle Physics
+        </a>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="row "> <!-- Center the content horizontally -->
+    <div class="col-6 offset-6 mt-5">
+      <!--<button type="button" class="btn btn-secondary " ><h1>ADDITIONAL SUBJECTS</h1></button> -->
+    </div>
+
+
+  </div>
+  </div>
+
+
+  <!--jquery for one collapse at a time-->
+  <script>
+    $(document).ready(function () {
+        $('[data-toggle="collapse"]').on('click', function (e) {
+            var target = $(this).attr('href');
+            var $target = $(target);
+
+            if ($target.hasClass('show')) {
+                // If the target is already open, allow it to close
+                $target.collapse('hide');
+            } else {
+                // Close all open collapsibles
+                $('.collapse').collapse('hide');
+                
+                // Open the clicked collapsible
+                $target.collapse('show');
+            }
+
+            e.preventDefault();
+        });
+
+        // Optionally close the collapsible when clicking outside
+        $(document).on('click', function (e) {
+            if (!$(e.target).closest('.collapse, [data-toggle="collapse"]').length) {
+                $('.collapse').collapse('hide');
+            }
+        });
+    });
+</script>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
